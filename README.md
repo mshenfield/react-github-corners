@@ -26,6 +26,7 @@ const App = (props) => (<GithubCorner svgStyle={{"stroke": "blue"}})
 ```
 
 If you want to help this library support other build configurations, [file an issue](issues).
+
 ## API
 **Props**
 
