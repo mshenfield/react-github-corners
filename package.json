@@ -1,0 +1,12 @@
+{
+  "name": "react-github-corners",
+  "version": "0.1.0",
+  "description": "A fresher \"Fork me on Github\" callout ported to React",
+  "main": "index.js",
+  "repository": "github.com/mshenfield/react-github-corners",
+  "author": "Max Shenfield <shenfieldmax@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "*"
+  }
+}
