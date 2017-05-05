@@ -1,6 +1,6 @@
 {
   "name": "react-github-corners",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A fresher \"Fork me on Github\" callout ported to React",
   "main": "dist/index.js",
   "repository": "https://github.com/mshenfield/react-github-corners",
@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "*"
   },
-  "files": ["dist/GithubCorner.css"],
+  "files": ["dist/GithubCorner.css", "dist/index.js"],
   "scripts": {
     "build": "babel index.js --out-dir dist && cp GithubCorner.css dist",
     "prepublish": "npm run build"
