@@ -9,11 +9,12 @@ If you have [Webpack](https://webpack.js.org/) configured to [load CSS](https://
 
 ```js
 import GithubCorner from 'react-github-corners'
+import 'react-github-corners/dist/GithubCorner.css'
 
 const App = (props) => (<GithubCorner/>)
 ```
 
-You can override the color using the `color` and `backgrounColor` props:
+You can override the color using the `color` and `backgroundColor` props:
 
 ```js
 const App = (props) => (<GithubCorner color="orange" backgroundColor="white"/>)

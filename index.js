@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './GithubCorner.css'
-
 /*
   A small React wrapper around http://tholman.com/github-corners/
 
@@ -41,4 +39,4 @@ GithubCorner.defaultProps = {
   target: "_self"
 }
 
-export default GithubCorner
+module.exports = GithubCorner

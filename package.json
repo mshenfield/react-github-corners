@@ -2,11 +2,21 @@
   "name": "react-github-corners",
   "version": "0.1.1",
   "description": "A fresher \"Fork me on Github\" callout ported to React",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/mshenfield/react-github-corners",
   "author": "Max Shenfield <shenfieldmax@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "react": "*"
+  },
+  "scripts": {
+    "build": "babel index.js --out-dir dist && cp GithubCorner.css dist",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-latest": "^6.24.1"
   }
 }
