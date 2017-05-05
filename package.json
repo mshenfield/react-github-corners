@@ -9,6 +9,7 @@
   "dependencies": {
     "react": "*"
   },
+  "files": ["dist/GithubCorner.css"],
   "scripts": {
     "build": "babel index.js --out-dir dist && cp GithubCorner.css dist",
     "prepublish": "npm run build"

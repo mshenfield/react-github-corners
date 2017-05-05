@@ -1,5 +1,3 @@
-node_modules/
-
 # Only upload dist/
 index.js
 GithubCorner.css
